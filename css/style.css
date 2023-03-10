@@ -1,0 +1,131 @@
+	body {
+		font-family: 'Maven Pro', sans-serif;
+	}
+	small {
+		font-size:14px;
+		font-weight:700;
+	}
+	h1 {
+		font-size:60px; 
+	     font-weight:400;
+	 }
+    p {
+    	font-size:16px;
+    	font-weight:400;
+    }
+.section1 {
+	background-image: url(images/background.png); 
+	min-height:800px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.section2 {
+	background-image: url(images/mockup.png); 
+	min-height:800px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:right;
+
+}
+.section3 {
+	background:linear-gradient(130deg,#735ede,#84bfd1);
+	color:#fff;
+}
+.section4 {
+	padding:150px 0px;
+}
+.section5 {
+	background-image: url(images/background-about.png); 
+	min-height:800px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.section6{
+	padding:70px 0px  0px;
+}
+.section7 {
+	background-color:#f9fafc;
+	padding:110px 0px !important;
+}
+.section8 {
+	background-image: url(images/background-2.png); 
+	min-height:850px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#slider {
+	background-image:url(images/slider-bg.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+
+@media screen and (min-width:360px) {
+	#slider {
+		height:160px
+	}
+}
+
+
+@media screen and (min-width:480px) {
+	#slider {
+		height:200px
+	}
+}
+
+@media screen and (min-width:576px) {
+	#slider {
+		height:240px
+	}
+}
+
+@media screen and (min-width:768px) {
+	#slider {
+		height:300px
+	}
+}
+
+@media screen and (min-width:990px) {
+	#slider {
+		height:400px
+	}
+}
+
+@media screen and (min-width:1200px) {
+	#slider {
+		height:500px
+	}
+}
+
+
+/* Buton Özellikleri */
+
+.navbar-button1 {
+	font-size:12px;
+	border-radius:30px;
+	padding:10px 25px !important;
+}
+.navbar-button1:hover {
+	color:#000 !important;
+}
+.btn-purple {
+	background:#6e45e2;
+	border-radius:30px;
+	padding:10px 35px !important;
+	color:#fff;
+	font-size:12px;
+}
+.btn-white {
+		font-size:12px;
+	border-radius:30px;
+	padding:10px 25px !important;
+	background:white;
+}
+.bg-purple {
+	background:#6e45e2;
+}
+.shadow {
+	box-shadow: 0px 2px 5px 0px #e0e0e0;
+}
